@@ -1,0 +1,78 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Asa", "Salam", "Asalam o Alikum"],
+         "responses": ["Hello, what would you like to know about COVID-19?", "Good to see you again", "Hi there, how can I help?", "Waslam, any questions?", "Walikum Asalam. How can I help you?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time", "Khuddahafiz"],
+         "responses": ["See you soon!", "Have a nice day", "Bye! Come back again soon.", "Khuddahafiz."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "no answer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more information", "Not sure I understand", "This is out of my capabilities."],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What can you do?", "What are you?", "What do you do?","What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I am a COVID-19 Encyclopedia! You can ask me anything related to COVID-19 and I'll hopefully have an answer.”,'Offering support for delivering any information regarding COVID’19"],
+         "context": [""]
+        },
+  		{"tag": "COVID’19",
+         "patterns": ["What is COVID’19?", "What is covid?", "What is covid-19?", "What is COVID-19?"],
+         "responses": ["COVID-19, otherwise known as coronavirus disease 2019, is a new infectious disease caused by a previously unknown virus called SARS-CoV-2. "],
+         "context": [""]
+        },
+		{"tag": "Origination",
+         "patterns": ["When did COVID’19 start?“,”What is the origin of COVID’19?","How did COVID-19 start?","How did covid-19 start?","How did covid 19 start?"],
+         "responses": ["The virus was first discovered in Wuhan, China in December 2019 and has since spread around the world"],
+         "context": [""]
+        },
+        {"tag": "Virus Spread",
+         "patterns": ["How does the virus spread?”, “How does a person get infected?“, “How does the virus escalate?", "How does it spread?"],
+         "responses": ["COVID-19 is thought to spread mainly through close contact from person to person via droplets of water, including between people who are physically near each other (within about 6 feet). People who are infected but do not show symptoms can also spread the virus to others"],
+         "context": [""]
+        },
+        {"tag": "Symptoms",
+         "patterns": ["What are some of the symptoms of COVID’19?“, “List down the symptoms of COVID’19","What are the symptoms of someone infected with a coronavirus?" , "What signs a person shows when he is infected with COVID’19?","Official symptoms of COVID-19?", "Symptoms of covid", "Symptoms of covid-19", "What are the symptoms of covid"],
+         "responses": ["It depends on the virus, but common signs include respiratory symptoms, fever, cough, shortness of breath, and breathing difficulties. In more severe cases, infection can cause pneumonia, severe acute respiratory syndrome, kidney failure and even death."],
+         "context": [""]
+        },
+        {"tag": "Treatment",
+         "patterns": ["Is there a treatment for a novel coronavirus?","Can a person be treated when contacted with coronavirus?","Is there a cure for COVID-19?", "Is there a cure for covid 19?", "Is there a cure for covid-19?"],
+         "responses": ["There is no specific treatment for disease caused by a novel coronavirus. However, many of the symptoms can be treated and therefore treatment based on the patient’s clinical condition. Moreover, supportive care for infected persons can be highly effective."],
+         "context": [""]
+        },
+        {"tag": "Development of Symptoms",
+         "patterns": ["When do symptoms start to appear?", "In how much time the symptoms start to show?"],
+         "responses": ["The average time for symptoms of COVID-19 to develop is five to six days, but it can take up to 14 days for people to show symptoms."],
+         "context": [""]
+        },
+        {"tag": "Infected",
+         "patterns": ["What should I do if I think I have COVID-19?","What to do if you are not sure whether you have contacted the virus or not?", "What if I have covid?"],
+         "responses": ["If you think you have COVID-19, stay at home and self-isolate – even if your symptoms are mild. If you have symptoms of COVID-19 or have been in close contact with someone who has symptoms or has tested positive, call your health care provider to see if and when you should take a test.The people you live with will also need to stay home for at least 14 days from when you first developed symptoms. Avoid close contact with others in your household while you’re ill. Stay one metre apart, or in another room if possible. If you live with someone who’s more vulnerable, try to arrange for them to stay elsewhere. You can also wear a medical mask to reduce the risk of infection."],
+         "context": [""]
+        },
+        {"tag": "Precautions",
+         "patterns": ["What are some of the precautions to take for COVID-19?", "How can someone save themselves from the novel coronavirus?", "How to not get covid?", "How to avoid getting covid?", "How to avoid getting covid-19?", "How to not get covid-19?"],
+         "responses": ["To prevent the spread of COVID-19: 1)Clean your hands often. Use soap and water, or an alcohol-based hand rub.2)Maintain a safe distance from anyone who is coughing or sneezing 3)Wear a mask when physical distancing is not possible. 4)Don’t touch your eyes, nose or mouth. 5)Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze.6)Stay home if you feel unwell.7)If you have a fever, cough and difficulty breathing, seek medical attention."],
+         "context": [""]
+        },
+        {"tag": "Vaccine",
+         "patterns": ["Is there a vaccine for COVID-19?","Are scientist able to find a vaccine against the novel coronavirus?", "Are there vaccines for covid?", "Are there vaccines for covid-19?", "Is there a vaccine for covid?", "Is there a vaccine for covid-19?"],
+         "responses": ["The first COVID-19 vaccines are now being distributed in some countries. COVID-19 vaccines work by helping your body develop immunity to the virus that causes COVID-19. This means your body will be ready and will be able to respond faster to the virus if you are exposed to it, so you’re less likely to get seriously ill. In Pakistan vaccines Sinopharm, CanSino, Sputnik V and AstraZeneca have been approved for emergency use."],
+         "context": [""]
+        },
+        {"tag": "Concerns",
+         "patterns": ["Is it safe to vaccinate yourself?","Are the vaccines safe?","Can children use the vaccine?","Can kids get vaccinated?", "Should children get vaccinated?", "Should kids get vaccinated?","Is it safe to use a vaccine that has been manufactured in such a short time?","Can children also be vaccinated with the new vaccine?"],
+         "responses": ["All three vaccines authorized for emergency use by the Food and Drug Administration (FDA) have been thoroughly tested and found to be safe and effective in preventing severe COVID-19. They continue to undergo continuous and intense safety monitoring. Safety trials begin in the lab, with tests and research on cells and animals, before moving on to human studies. Trials have shown that the vaccines are safe when administered to adults. However, further study is needed to approve the vaccines for children."],
+         "context": [""]
+        }
+   ]
+}
